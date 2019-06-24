@@ -150,7 +150,7 @@ export default {
       return this.$editable.scrollLoad
     },
     isReadonly () {
-      return !this.editRender
+      return this.editRender
     },
     compName () {
       return this.renderOpts.name
